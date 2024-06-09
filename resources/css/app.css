@@ -1,0 +1,18 @@
+.floating-button {
+    position: fixed;
+    bottom: 60px; /* Menyesuaikan agar tidak terlalu rendah */
+    right: 20px;
+    z-index: 1000;
+    background-color: #042a4d; /* Warna background tombol */
+    color: white; /* Warna teks tombol */
+    padding: 15px 25px; /* Sedikit menambah padding agar lebih besar */
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(27, 49, 122, 0.3);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.floating-button:hover {
+    background-color: #fafbfc; /* Warna saat tombol di-hover */
+}
